@@ -178,6 +178,8 @@ const final = {
 
   - Hacktoberfest is a month-long celebration of open source software <br>run by DigitalOcean in partnership with Appwrite, Intel and DeepSource.
   
+  - The goal of the event is to encourage participation in the open-source community all across the globe.
+  
   - Pull requests can be made in any participating GitHub or GitLab hosted repository/Projects. <br>Look for the 'hacktoberfest' topic to know if a project is participating in Hacktoberfest.
 
   - You can sign up anytime between October 1 and October 31. Just be sure to <br>sign up on the official Hacktoberfest website for your pull requests to count.

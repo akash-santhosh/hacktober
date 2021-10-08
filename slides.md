@@ -21,9 +21,17 @@ slides for Hacktoberfest
 ---
 layout: image-right
 equal: true
-image: 
+image: https://aks.one/hotlink-ok/end.jpg
 ---
-# Hello There
+Hello There
+
+# I'm Akash Santhosh
+- I love networks and community
+- does web, cloud, servers
+- works on networks and security
+- find me online on aks.one
+
+
 ---
 layout: center
 equal: true
@@ -118,6 +126,45 @@ h1 {
 </style>
 
 ---
+layout: center
+equal: true
+---
+
+# Git
+
+A Short History of Git
+
+The Linux kernel is an open source software project of fairly large scope. During the early years of the Linux kernel maintenance (1991–2002), changes to the software were passed around as patches and archived files. In 2002, the Linux kernel project began using a proprietary DVCS called BitKeeper.
+
+In 2005, the relationship between the community that developed the Linux kernel and the commercial company that developed BitKeeper broke down, and the tool’s free-of-charge status was revoked. This prompted the Linux development community (and in particular Linus Torvalds, the creator of Linux) to develop their own tool based on some of the lessons they learned while using BitKeeper. Some of the goals of the new system were as follows:
+
+- Speed
+- Scalability
+- Simple Design
+- Fully distributed
+- Being free and open source
+- Strong support for non-linear development (thousands of parallel branches)
+<br>
+<br>
+
+---
+layout: center
+equal: true
+---
+
+# GitHub
+
+History of github
+
+Development of the GitHub platform began on 1 October 2007. The site was launched in April 2008 by Tom Preston-Werner, Chris Wanstrath, and PJ Hyett after it had been made available for a few months prior as a beta release.<br>
+
+When Chris and Tom started working on GitHub in late 2007, Git was largely unknown as a version control system.There were no commercial Git hosting options whatsoever.And so GitHub was created to provide developers the option to host code securely and manage commits to code in proper manner.
+Soon the adoption of github for managing opensource projects grew rapidly due to which paid git hosting became a viable option and paid subscriptions made the project profitable.The software that runs GitHub was written using Ruby on Rails and Erlang.<br>
+
+Simon Oxley designed the octopuss, alongside the white bird Twitter used (before they received a proper logo) as part of a usual routine of cranking out images for iStock. GitHub saw it, and wanted it, presumably under the notion that it can represent how complex code combines to create peculiar things, much like the octopuss…except the CEO of GitHub called it an octocat, and it has been the octocat since.
+
+---
+
 preload: false
 ---
 

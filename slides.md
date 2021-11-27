@@ -4,9 +4,9 @@ theme: light-icons
 layout: center
 ---
 
-# FOSS, Hacktoberfest 👀
+# FOSS👀
 
-slides for Hacktoberfest
+slides for KMCTCE
 
 <div class="pt-12">
   <span @click="$slidev.nav.next" class="px-2 p-1 rounded cursor-pointer" hover="bg-white bg-opacity-10">
@@ -156,15 +156,11 @@ equal: true
 
 History of github
 
-Development of the GitHub platform began on 1 October 2007. The site was launched in April 2008 by Tom Preston-Werner, Chris Wanstrath, and PJ Hyett after it had been made available for a few months prior as a beta release.<br>
-
-When Chris and Tom started working on GitHub in late 2007, Git was largely unknown as a version control system.There were no commercial Git hosting options whatsoever.And so GitHub was created to provide developers the option to host code securely and manage commits to code in proper manner.
-Soon the adoption of github for managing opensource projects grew rapidly due to which paid git hosting became a viable option and paid subscriptions made the project profitable.The software that runs GitHub was written using Ruby on Rails and Erlang.<br>
-
-Simon Oxley designed the octopuss, alongside the white bird Twitter used (before they received a proper logo) as part of a usual routine of cranking out images for iStock. GitHub saw it, and wanted it, presumably under the notion that it can represent how complex code combines to create peculiar things, much like the octopuss…except the CEO of GitHub called it an octocat, and it has been the octocat since.
+- launched in April 2008 by Tom Preston-Werner, Chris Wanstrath, and PJ Hyett.
+- Git was largely unknown as a version control system.
+- GitHub was created to provide developers the option to host code securely and manage commits to code in proper manner.
 
 ---
-
 preload: false
 ---
 
@@ -199,7 +195,7 @@ preload: false
     v-motion
     :initial="{ x: -80, opacity: 0}"
     :enter="{ x: 0, opacity: 1, transition: { delay: 2000, duration: 1000 } }">
-    Hacktoberfest
+     Why contribute to FOSS?
   </div>
 </div>
 
@@ -222,14 +218,16 @@ const final = {
   v-motion
   :initial="{ x:35, y: 40, opacity: 0}"
   :enter="{ y: 0, opacity: 1, transition: { delay: 3500 } }">
-
-  - Hacktoberfest is a month-long celebration of open source software <br>run by DigitalOcean in partnership with Appwrite, Intel and DeepSource.
   
-  - The goal of the event is to encourage participation in the open-source community all across the globe.
-  
-  - Pull requests can be made in any participating GitHub or GitLab hosted repository/Projects. <br>Look for the 'hacktoberfest' topic to know if a project is participating in Hacktoberfest.
-
-  - You can sign up anytime between October 1 and October 31. Just be sure to <br>sign up on the official Hacktoberfest website for your pull requests to count.
+  - Made with **♥**.
+  - The world runs on free software.
+  - Amazing developer community.
+  - Digital Privacy is possible only through free software.
+  - By being part of a free software project you get to be part of a movement
+    bigger than yourself the consequences if which extends to millions of users.
+  - Build your experience and skills working for real life projects.
+  - Contributions are public hence verifiable.
+  - Fame and Recognition.
 
 
 </div>
@@ -244,21 +242,15 @@ const final = {
 ---
 
 
-# **Terms and Details**
+# **How to find projects to contribute to?**
 
-- The pull request must contain commits you made yourself.
-
-- If a maintainer reports your pull request as spam, it will not <br>be counted toward your participation in Hacktoberfest.
-
-- If a maintainer reports behavior that’s not in line with the <br>project’s code of conduct, you will be ineligible to participate.
-
-- A pull request is considered approved once it has an overall <br>approving review from maintainers, or has been merged by <br>maintainers, or has been given the 'hacktoberfest-accepted' label.
-
-- Maintainers determine if their open-source projects <br>participate by adding the ‘hacktoberfest’ topic.
-
-- Quality pull requests submitted on GitHub and GitLab are rewarded.
-
-- Engaged maintenance of Hacktoberfest tagged repositories are rewarded.
+- Become a user.
+- Find something you like.
+- Join the community.
+- Go through the issues page.
+- Start small and always ask doubts.
+- Slowly familiarize yourself with the technology used.
+- Become part of the Team!
 
 ---
 layout: center

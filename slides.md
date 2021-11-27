@@ -31,12 +31,30 @@ Hello There
 - works on networks and security
 - find me online on aks.one
 
+---
+layout: center
+equal: true
+---
+
+# What is FOSS ?
+
 
 ---
 layout: center
 equal: true
 ---
-# What is FOSS ?
+
+# Birth
+
+The Printer and RMS
+
+ - 1970s
+ - Personal Computers didn’t exist.
+ - Programming is some people just at the universities knew.
+ - They took care of their own needs.
+ - They led by Richard M. Stallman started the Free Software Foundation
+
+
 ---
 layout: center
 equal: true
@@ -60,8 +78,6 @@ Free and Open Source Software is any piece of software that respects their
     benefit from your changes. Access to the source code is a precondition for
     this.**
 
-<br>
-<br>
 
 ---
 equal: true
@@ -134,9 +150,12 @@ equal: true
 
 A Short History of Git
 
-The Linux kernel is an open source software project of fairly large scope. During the early years of the Linux kernel maintenance (1991–2002), changes to the software were passed around as patches and archived files. In 2002, the Linux kernel project began using a proprietary DVCS called BitKeeper.
+- The Linux kernel is an open source software project of fairly large scope.
+- In 2002, the Linux kernel project began using a proprietary DVCS called BitKeeper.
+- In 2005, the relationship between the community that developed the Linux kernel and the company that developed BitKeeper broke down. 
+- This prompted the Linux development community to develop their own tool
 
-In 2005, the relationship between the community that developed the Linux kernel and the commercial company that developed BitKeeper broke down, and the tool’s free-of-charge status was revoked. This prompted the Linux development community (and in particular Linus Torvalds, the creator of Linux) to develop their own tool based on some of the lessons they learned while using BitKeeper. Some of the goals of the new system were as follows:
+Some of the goals of the new system were as follows:
 
 - Speed
 - Scalability
@@ -144,26 +163,11 @@ In 2005, the relationship between the community that developed the Linux kernel 
 - Fully distributed
 - Being free and open source
 - Strong support for non-linear development (thousands of parallel branches)
-<br>
-<br>
 
----
-layout: center
-equal: true
----
-
-# GitHub
-
-History of github
-
-- launched in April 2008 by Tom Preston-Werner, Chris Wanstrath, and PJ Hyett.
-- Git was largely unknown as a version control system.
-- GitHub was created to provide developers the option to host code securely and manage commits to code in proper manner.
 
 ---
 preload: false
 ---
-
 
 <div class="w-60 relative mt-6">
   <div class="relative w-40 h-40">
@@ -195,7 +199,7 @@ preload: false
     v-motion
     :initial="{ x: -80, opacity: 0}"
     :enter="{ x: 0, opacity: 1, transition: { delay: 2000, duration: 1000 } }">
-     Why contribute to FOSS?
+     Why contribute
   </div>
 </div>
 
@@ -223,8 +227,7 @@ const final = {
   - The world runs on free software.
   - Amazing developer community.
   - Digital Privacy is possible only through free software.
-  - By being part of a free software project you get to be part of a movement
-    bigger than yourself the consequences if which extends to millions of users.
+  - You get to be part of a movement by being part of a free software project.
   - Build your experience and skills working for real life projects.
   - Contributions are public hence verifiable.
   - Fame and Recognition.
@@ -239,6 +242,8 @@ const final = {
 <a href="https://aks.one" target="_blank"
   class="abs-b m-6 text-xl !border-none">aks.one
 </a>
+
+
 ---
 
 

@@ -146,6 +146,17 @@ layout: center
 equal: true
 ---
 
+# **Lessgo to some references...**
+
+<a href="[https://aks.one](https://drive.google.com/drive/folders/1euURpYLwTMVTmfM3FwL0rQty6h1zzZla?usp=sharing)" target="_blank"
+  class="abs-br m-6 text-xl !border-none">To the link between the link
+</a>
+
+---
+layout: center
+equal: true
+---
+
 # Git
 
 A Short History of Git

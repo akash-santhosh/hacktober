@@ -21,7 +21,7 @@ slides for MES
 ---
 layout: image-right
 equal: true
-image: https://aks.one/hotlink-ok/DSC08467.JPG
+image: https://aks.one/hotlink-ok/begin.jpg
 ---
 Hello There
 

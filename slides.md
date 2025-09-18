@@ -1,133 +1,80 @@
 ---
-class: text-center
 theme: light-icons
+background: https://raw.githubusercontent.com/akash-santhosh/.com/refs/heads/master/akash/images/debconf_talk.jpg
+title: Openquest 2025 | Akash Santhosh
+class: text-center
+drawings:
+  persist: false
+transition: slide-left
+mdc: true
+layout: center
+seoMeta:
+  # By default, Slidev will use ./og-image.png if it exists,
+  # or generate one from the first slide if not found.
+  ogImage: auto
+  # ogImage: https://raw.githubusercontent.com/akash-santhosh/.com/refs/heads/master/akash/images/debconf_talk.jpg
+image: https://raw.githubusercontent.com/akash-santhosh/.com/refs/heads/master/akash/images/debconf_talk.jpg
+---
+
+# FOSS and Hacktoberfest
+
+Presentation slides for openquest
+
+<div @click="$slidev.nav.next" class="mt-12 py-1" hover:bg="white op-10">
+  Let's dig in <carbon:arrow-right />
+</div>
+
+<div class="abs-br m-6 text-xl">
+  <button @click="$slidev.nav.openInEditor()" title="Open in Editor" class="slidev-icon-btn">
+    <carbon:edit />
+  </button>
+  <a href="https://github.com/slidevjs/slidev" target="_blank" class="slidev-icon-btn">
+    <carbon:logo-github />
+  </a>
+</div>
+
+---
 layout: center
 ---
 
-# FOSS👀
+ Who am I
 
-slides for KMEA
 
-<div class="pt-12">
-  <span @click="$slidev.nav.next" class="px-2 p-1 rounded cursor-pointer" hover="bg-white bg-opacity-10">
-    Go <carbon:arrow-right class="inline"/>
-  </span>
-</div>
+## I'm Akash Santhosh
+
+- (googling might help but the photos are the actor Aakash Santhosh)
+- my usernames are my fullname mostly
+- Network Engineer by Profession
+- Network, Systems and Cloud
+- Debian Developer (#DebianUyir)
+
 
 <a href="https://aks.one" target="_blank"
-  class="abs-br m-6 text-xl !border-none">Akash Santhosh
+  class="abs-b m-6 text-xl !border-none">aks.one
 </a>
 
 ---
-layout: image-right
-equal: true
-image: https://aks.one/hotlink-ok/begin.jpg
----
-Hello There
-
-# I'm Akash Santhosh
-- I love networks and community
-- does web, cloud, servers
-- works on networks and security
-- find me online on aks.one
-
----
-layout: center
-equal: true
+transition: fade-out
 ---
 
-# What is FOSS ?
+# What is FOSS?
+### FOSS = Free and Open Source Software
+##### It’s built around the Four Freedoms:
 
+<v-clicks>
 
----
-layout: center
-equal: true
----
+-  🏃 **Freedom 0** - Freedom to run the program as you wish, for any purpose.
+-  📖 **Freedom 1** - Freedom to study how the program works and change it so it does your computing as you wish.
+- 🧰 **Freedom 2** - Freedom to redistribute the copies with others. Access to the source code is a precondition for this.
+- 🛠 **Freedom 3** - Freedom to share modified versions to others. By doing this you can give the whole community a chance to benefit from your changes. Access to the source code is a precondition for this.
 
-# Birth
+</v-clicks>
 
-The Printer and RMS
-
- - 1970s
- - Personal Computers didn’t exist.
- - Programming is some people just at the universities knew.
- - They took care of their own needs.
- - They led by Richard M. Stallman started the Free Software Foundation
-
-
----
-layout: center
-equal: true
----
-
-# The Four Freedoms
-
-Free and Open Source Software is any piece of software that respects their
-  user’s four freedoms:
-- **The freedom to run the program as you wish, for any purpose (freedom 0)**
-
-- **The freedom to study how the program works, and change it so it does your
-    computing as you wish (freedom 1).** 
-
--  **Access to the source code is a precondition for this. The freedom to
-    redistribute copies so you can help others
-    (freedom 2).**
-
-- **The freedom to distribute copies of your modified versions to others
-    (freedom 3). By doing this you can give the whole community a chance to
-    benefit from your changes. Access to the source code is a precondition for
-    this.**
-
-
----
-equal: true
-image: 
----
-
-# Open Source vs Free Software
-
-- **Free Software is about user’s freedom.**
-
-- **Open Source is a way of making software.** 
-
-- ‍**Protective vs Non-Protective Licenses.**
-
-# Open Source vs Proprietary Software
-
-- **OSS can be used for any purpose.**
-- **OSS Allows to study how software works.**
-- **OSS has Freedom to modify and improve the program.**
-- **OSS No restrictions on redistributions.**
-- **Proprietary has Restrictions on sharing of software illegally**
-- **Proprietary has Time period up to which software will operate**
-- **Proprietary limits Number of features allowed to use**
----
-layout: center
-equal: true
----
-
-# Why contribute to FOSS?
-
-Why should I consider contributing to free software?
-
-- **Amazing developer community**
-
-- **The world runs on free software.** 
-
-- ‍**Digital Privacy is possible only through free software.**
-
-- **By being part of a free software project you get to be part of a movement 
-<br>bigger than yourself the consequences if which extends to millions of users.**
-
-Minor Perks:
-
-- **Build your experience and skills working for real life projects** 
-
-- ‍**Contributions are public hence verifiable.**
-
-- **Fame and Recognition**
+##### The idea is that access to source code is essential for freedom and collaboration.
 <br>
 <br>
+
+Read more about [FOSS](https://en.wikipedia.org/wiki/Free_and_open-source_software)
 
 <style>
 h1 {
@@ -136,161 +83,204 @@ h1 {
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
-  -webkit-text-fill-color: transparent; 
+  -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
 }
 </style>
 
 ---
+transition: slide-up
+level: 2
+---
+
+# Open Source Sofware
+
+We are talking about Open Source Software but we need to know what is what
+## Open Source vs Free Software
+
+|                                                     |                             |
+| --------------------------------------------------- | --------------------------- |
+| Free Software                 | focuses on users’ freedom. |
+| Open Source Software          | focuses on the way software is developed and distributed. |
+
+Licenses can be protective (copyleft) or non-protective (permissive).
+
+<v-click>
+
+<span v-mark.circle.organge="2">All free softwares are open source</span>. But all open source softwares are <span v-mark.red="3">not free</span>.
+
+</v-click>
+
+---
+
+# Free Software vs Open Source vs Proprietary
+
+| Feature / Aspect       | **Free Software (FSF)**                         | **Open Source (OSI)**                               | **Proprietary Software**                     |
+|-------------------------|-------------------------------------------------|-----------------------------------------------------|----------------------------------------------|
+| **Source Code Access**  | ✅ Yes (must be available)                      | ✅ Yes (must be available)                          | ❌ No                                        |
+| **User Freedoms**       | ✅ Full 4 Freedoms (use, study, share, modify)  | ⚠️ Yes, but may have restrictions depending on license | ❌ None (limited by license)                  |
+| **Philosophy**          | Ethical: about **freedom** and user rights      | Practical: about **collaboration & efficiency**     | Business-focused: about **control & profit** |
+| **Examples**            | Debian, LibreOffice, VLC, Blender               | MongoDB (SSPL), Elasticsearch (SSPL), Redis modules with Commons Clause | Microsoft Office, Adobe Photoshop, Apple iOS |
+
+
+---
+
+# Free Software vs Open Source vs Proprietary
+
+| Feature / Aspect       | **Free Software (FSF)**                         | **Open Source (OSI)**                               | **Proprietary Software**                     |
+|-------------------------|-------------------------------------------------|-----------------------------------------------------|----------------------------------------------|
+| **Can Sell?**           | ✅ Yes (you can charge for free software)       | ✅ Yes (depends on license)                         | ✅ Yes (main revenue model)                   |
+| **Can Modify?**         | ✅ Yes, with redistribution rights              | ✅ Yes, with license compliance                     | ❌ No (illegal without permission)            |
+| **Community Involvement** | ✅ High (freedom-focused communities, FSF, GNU) | ✅ High (GitHub/GitLab, corporate + community mix)  | ⚠️ Limited (beta testing, closed feedback)    |
+| **Control**             | Users have control                             | Shared between community & companies                | Vendor has full control                       |
+
+
+---
+layout: image-right
+image: background: https://raw.githubusercontent.com/akash-santhosh/.com/refs/heads/master/akash/images/thar.jpg
+---
+
+# Does FOSS make any sense ?
+
+Imagine a car you own
+
+---
+layout: image-left
+image: background: https://raw.githubusercontent.com/akash-santhosh/.com/refs/heads/master/akash/images/hood.jpg
+---
+
+# Does FOSS make any sense ?
+
+Imagine a car you gonna buy
+
+---
+level: 2
+---
+
+# Why contribute to Free Software
+
+- Made with Passion/love.
+- The world runs on free software.
+- Amazing developer community.
+- Digital Privacy is possible only through free software.
+- By being part of a free software project you get to be a part of a movement bigger than yourself, the consequences if which extends to millions of users.
+
+## Minor Perks
+
+- Build your experience and skills working for real life projects.
+- Contributions are public hence verifiable.
+- Fame and Recognition.
+---
+foo: bar
+dragPos:
+  square: 653,197,165,_
+---
+
+# How to contribute to free software ?
+
+1. 1.Become a user.
+2. 2.Find something you like.
+3. 3.Join the community.
+4. 4.Go through the issues page.
+5. 5.Start small and always ask doubts.
+6. 6.Slowly familiarise yourself with the technology used.
+7. 7.Become part of the team!
+
+<img v-drag="'square'" src="https://sli.dev/logo.png">
+
+---
+
+# Hacktoberfest
+
+- What is Hacktoberfest ?
+- Why should you participate ?
+- Why does it exist ?
+
+---
+
+# For Individuals
+
+- **Learning by doing**: You get hands-on experience with real-world codebases.
+- **Skill development**: Improve coding, documentation, collaboration, and version control (Git).
+- **Networking**: Connect with global developers, mentors, and organizations.
+- **Portfolio boost**: Your contributions are visible on GitHub → helps in job applications.
+- **Recognition**: Being listed as a contributor to popular projects gives credibility.
+- **Rewards**: Hacktoberfest offers swag + the satisfaction of giving back to the community.
+
+---
+
+# For the Community
+
+- **Shared innovation**: Multiple contributors improve and maintain projects.
+- **Faster development**: Bugs fixed and features added quickly by the community.
+- **Accessibility**: Free tools for people, schools, startups, and non-profits.
+- **Diversity of ideas**: Contributors from different backgrounds bring unique perspectives.
+
+---
+
+# For Companies
+
+- **Cost savings**: No expensive licenses.
+- **Security**: Open code → more eyes checking vulnerabilities.
+- **Talent pipeline**: Recruit skilled contributors who already understand the project.
+- **Ecosystem growth**: Builds trust and brand recognition in the tech world. 
+
+---
+
+# Hacktoberfest & Career
+
+### Portfolio Building
+- Every contribution (PR, issue, documentation fix) you make shows up on your GitHub/GitLab.
+- Recruiters look into contributions
+
+### Practical Experience
+- Learn the method
+- Experience collaborating on different teams.
+
+### Networking & Community
+- You get noticed by project maintainers, who are often professionals at big companies.
+- This can lead to something more.
+
+---
+
+# Hacktoberfest & Career
+
+### Demonstrates Initiative
+- Employers like people who go beyond coursework and engage in open-source.
+- Contributions on paper
+
+### Stepping Stone to Bigger Contributions
+- Becoming Maintainers
+- Outreachy and Summer of Code
+
+### Limitations
+- One month of PRs alone won’t get you hired.
+- Low-quality or “spammy” PRs won’t impress recruiters.
+
+---
 layout: center
-equal: true
----
-
-# **Lessgo to some references...**
-
-<a href="https://drive.google.com/drive/folders/1euURpYLwTMVTmfM3FwL0rQty6h1zzZla?usp=sharing" target="_blank"
-  class="abs-br m-6 text-xl !border-none">To the link between the link
-</a>
-
----
-layout: center
-equal: true
----
-
-# Git
-
-A Short History of Git
-
-- The Linux kernel is an open source software project of fairly large scope.
-- In 2002, the Linux kernel project began using a proprietary DVCS called BitKeeper.
-- In 2005, the relationship between the community that developed the Linux kernel and the company that developed BitKeeper broke down. 
-- This prompted the Linux development community to develop their own tool
-
-Some of the goals of the new system were as follows:
-
-- Speed
-- Scalability
-- Simple Design
-- Fully distributed
-- Being free and open source
-- Strong support for non-linear development (thousands of parallel branches)
-
-
----
-preload: false
----
-
-<div class="w-60 relative mt-6">
-  <div class="relative w-40 h-40">
-    <img
-      v-motion
-      :initial="{ x: 800, y: -100, scale: 1.5, rotate: -50 }"
-      :enter="final"
-      class="absolute top-0 left-0 right-0 bottom-0"
-      src="https://sli.dev/logo-square.png"
-    />
-    <img
-      v-motion
-      :initial="{ y: 500, x: -100, scale: 2 }"
-      :enter="final"
-      class="absolute top-0 left-0 right-0 bottom-0"
-      src="https://sli.dev/logo-circle.png"
-    />
-    <img
-      v-motion
-      :initial="{ x: 600, y: 400, scale: 2, rotate: 100 }"
-      :enter="final"
-      class="absolute top-0 left-0 right-0 bottom-0"
-      src="https://sli.dev/logo-triangle.png"
-    />
-  </div>
-
-  <div 
-    class="text-5xl absolute top-14 left-40 text-[#2B90B6] -z-1"
-    v-motion
-    :initial="{ x: -80, opacity: 0}"
-    :enter="{ x: 0, opacity: 1, transition: { delay: 2000, duration: 1000 } }">
-     Why contribute
-  </div>
-</div>
-
-<script setup lang="ts">
-const final = {
-  x: 0,
-  y: 0,
-  rotate: 0,
-  scale: 1,
-  transition: {
-    type: 'spring',
-    damping: 10,
-    stiffness: 20,
-    mass: 2
-  }
-}
-</script>
-
-<div
-  v-motion
-  :initial="{ x:35, y: 40, opacity: 0}"
-  :enter="{ y: 0, opacity: 1, transition: { delay: 3500 } }">
-  
-  - Made with **♥**.
-  - The world runs on free software.
-  - Amazing developer community.
-  - Digital Privacy is possible only through free software.
-  - You get to be part of a movement by being part of a free software project.
-  - Build your experience and skills working for real life projects.
-  - Contributions are public hence verifiable.
-  - Fame and Recognition.
-
-
-</div>
-
-<a href="https://aks.one" target="_blank"
-  class="abs-br m-6 text-xl !border-none">Akash Santhosh
-</a>
-
-<a href="https://aks.one" target="_blank"
-  class="abs-b m-6 text-xl !border-none">aks.one
-</a>
-
-
----
-
-
-# **How to find projects to contribute to?**
-
-- Become a user.
-- Find something you like.
-- Join the community.
-- Go through the issues page.
-- Start small and always ask doubts.
-- Slowly familiarize yourself with the technology used.
-- Become part of the Team!
-
----
-layout: center
-equal: true
----
-
-# **The Great blank space...**
-
-<a href="https://aks.one" target="_blank"
-  class="abs-br m-6 text-xl !border-none">Akash Santhosh
-</a>
-
----
-layout: dynamic-image 
-image: 'https://aks.one/end.jpg'
 class: text-center
 ---
 
-# Thank You
+# Anything else 👀 ???
+
+
+---
+layout: center
+class: text-center
+---
+
+# Thank you
+
+[Website](https://aks.one) · [Portfolio](https://akashsanthosh.com) · [Debian](https://nm.debian.org/person/akash)
 
 ## Akash Santhosh
 
-[Engineer](https://aks.one) / [Evangelist](https://github.com/akash-santhosh)
+connect me at
 
-<a href="https://aks.one" target="_blank"
-  class="abs-br m-6 text-xl !border-none">aks.one
-</a>
+IRC: akashsanthosh
+
+Matrix: akashsanthosh:matrix.org
+
+Mail: akashsanthosh@disroot.org | akash@debian.org
+

@@ -1,8 +1,6 @@
 ---
-theme: light-icons
-background: https://raw.githubusercontent.com/akash-santhosh/.com/refs/heads/master/akash/images/debconf_talk.jpg
+theme: bricks
 title: Openquest 2025 | Akash Santhosh
-class: text-center
 drawings:
   persist: false
 transition: slide-left
@@ -11,7 +9,8 @@ layout: center
 seoMeta:
   # By default, Slidev will use ./og-image.png if it exists,
   # or generate one from the first slide if not found.
-ogImage: https://raw.githubusercontent.com/akash-santhosh/.com/refs/heads/master/akash/images/debconf_talk.jpg
+  # ogImage: https://raw.githubusercontent.com/akash-santhosh/.com/refs/heads/master/akash/images/debconf_talk.jpg
+ogImage : https://raw.githubusercontent.com/akash-santhosh/.com/refs/heads/master/akash/images/debconf_talk.jpg
 ---
 
 # FOSS and Hacktoberfest
@@ -26,10 +25,7 @@ Presentation slides for openquest
   <button @click="$slidev.nav.openInEditor()" title="Open in Editor" class="slidev-icon-btn">
     <carbon:edit />
   </button>
-  <a href="https://github.com/slidevjs/slidev" target="_blank" class="slidev-icon-btn">
-    <carbon:logo-github />
-  </a>
-</div>
+  </div>
 
 ---
 layout: center
@@ -135,7 +131,7 @@ Licenses can be protective (copyleft) or non-protective (permissive).
 
 ---
 layout: image-right
-image: background: https://raw.githubusercontent.com/akash-santhosh/.com/refs/heads/master/akash/images/thar.jpg
+image: https://raw.githubusercontent.com/akash-santhosh/.com/refs/heads/master/akash/images/thar.jpg
 ---
 
 # Does FOSS make any sense ?
@@ -144,7 +140,7 @@ Imagine a car you own
 
 ---
 layout: image-left
-image: background: https://raw.githubusercontent.com/akash-santhosh/.com/refs/heads/master/akash/images/hood.jpg
+image: https://raw.githubusercontent.com/akash-santhosh/.com/refs/heads/master/akash/images/hood.jpg
 ---
 
 # Does FOSS make any sense ?
@@ -171,7 +167,7 @@ level: 2
 ---
 foo: bar
 dragPos:
-  square: 653,197,165,_
+  square: 685,212,165,_
 ---
 
 # How to contribute to free software ?
@@ -184,7 +180,7 @@ dragPos:
 6. 6.Slowly familiarise yourself with the technology used.
 7. 7.Become part of the team!
 
-<img v-drag="'square'" src="https://sli.dev/logo.png">
+<img v-drag="'square'" src="https://upload.wikimedia.org/wikipedia/commons/0/04/Debian_logo.png">
 
 ---
 
@@ -281,4 +277,3 @@ IRC: akashsanthosh
 Matrix: akashsanthosh:matrix.org
 
 Mail: akashsanthosh@disroot.org | akash@debian.org
-

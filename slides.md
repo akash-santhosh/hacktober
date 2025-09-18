@@ -11,9 +11,7 @@ layout: center
 seoMeta:
   # By default, Slidev will use ./og-image.png if it exists,
   # or generate one from the first slide if not found.
-  ogImage: auto
-  # ogImage: https://raw.githubusercontent.com/akash-santhosh/.com/refs/heads/master/akash/images/debconf_talk.jpg
-image: https://raw.githubusercontent.com/akash-santhosh/.com/refs/heads/master/akash/images/debconf_talk.jpg
+ogImage: https://raw.githubusercontent.com/akash-santhosh/.com/refs/heads/master/akash/images/debconf_talk.jpg
 ---
 
 # FOSS and Hacktoberfest
